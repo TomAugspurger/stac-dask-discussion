@@ -1,0 +1,15 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - stackstac
+  - stac-vrt
+  - requests
+  - pystac
+  - rioxarray
+  - xarray
+  - pip
+  - pip:
+    - sat-search
+
+

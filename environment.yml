@@ -2,7 +2,6 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - stackstac
   - stac-vrt
   - requests
   - pystac
@@ -11,5 +10,4 @@ dependencies:
   - pip
   - pip:
     - sat-search
-
-
+    - stackstac
